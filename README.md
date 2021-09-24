@@ -17,4 +17,5 @@ Foi utilizado a font, Raleway
 https://fonts.google.com
 
 # Link para visualizar o projeto
-# contador-voltas-react-js
+
+https://contador-voltas-react-js.netlify.app/
