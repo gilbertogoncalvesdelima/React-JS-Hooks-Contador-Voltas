@@ -1,0 +1,29 @@
+@import url('//fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+.voltas {
+    font-size: 60px;
+}
+.voltas span {
+    font-size: 150px;
+    font-weight: bold;
+}
+
+button {
+    background-color: azure;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 140px;
+    font-size: 20px;
+    padding: 22px;
+    margin: 5px;
+}
+.tempo span {
+    font-weight: bold;
+    font-size: 60px;
+}
+

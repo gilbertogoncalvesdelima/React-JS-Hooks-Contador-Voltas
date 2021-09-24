@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# Resumo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+hooks é uma forma de manter dados e manipular a execução de instruções em componentes funcionais (lembrando que componentes funcionais somente retornam os elementos que serão mostrados/renderizados na tela) e apenas com javascript essas funções não armazenariam valores.
+Hooks sempre começam com "use", como useState e useEffects.
 
-## Available Scripts
+# useState
 
-In the project directory, you can run:
+Ele tira uma "foto" de um dado para o componente funcional, e retorna uma função capaz de alteração esta foto. Toda vez que esta foto é alterada, o componente é renderizado novamente. Esta foto também em react é conhecida como estado interno do componente ou state.
 
-### `yarn start`
+# useHook
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Permite ter efeitos colaterais que serão executados na renderização de um componente. Se utilizado sem dependências (ex: useEffect(funcao)), será executado em toda renderização. Se utilizado com dependências vazias (ex: useEffect(funcao, [])), será executado somente na primeira vez que for renderizado (mesmo comportamento de um construtor). E caso seja passado um valor (ex: useEffect(funcao, [a])), será executado somente se a tiver seu valor alterado.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Font Link Site
 
-### `yarn test`
+Foi utilizado a font, Raleway
+https://fonts.google.com
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Link para visualizar o projeto
+# contador-voltas-react-js
